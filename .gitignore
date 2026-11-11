@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+
+# Security (CRITICAL - No secrets)
+.env
+.env.*
+*.pem
+*.key
+*.token
+credentials.json
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
